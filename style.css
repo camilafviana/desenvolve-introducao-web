@@ -1,16 +1,13 @@
-html{font-size: 20px;}
-html h1{font-size: 2rem;}/* 2*20=40px */
-h1 > .principal {font-size: 1.4em;} /*1.4*40=56px*/
-html .secundario{font-size: 1.4rem;} /*1.4*20=28*/
+/* Color Theme Swatches in Hex */
 
-.cor {
-    background: rgb(219, 78, 68);
-}
+.background { color: #B4BEC9; }
+.Crevasse-2-hex { color: #159A9C; }
+.principal { color: #002333; }
+.Crevasse-4-hex { color: #DEEFE7; }
+.Crevasse-5-hex { color: #FFFFFF; }
 
-.cor-clara{
-    background:rgb(252, 90, 78) ;
-}
 
-.cor-escura{
-     background:rgb(186, 66, 58) ;
+html {
+    background: #B4BEC9;;
+    color: #002333;;
 }
