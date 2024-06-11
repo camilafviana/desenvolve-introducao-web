@@ -1,0 +1,107 @@
+/*.principal { color: #1F2024; }
+.blackground { color: #A68F97; }
+.destaque {color:#008F8C; }
+.3 {color:#FFFFFF; }
+.2 {color:; }
+.1{color:##C7FFED; }*/
+
+html{
+    background: #1F2024;
+    color: #A68F97;
+    width: 80%;
+    max-width: 1280px;
+    margin:auto;
+}
+p{
+    text-indent:1em;}
+h1,h2,h3,h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    background:#A68F97;
+    color: #1F2024;
+}
+
+.nav{
+    background:#A68F97;
+    color: #1F2024;
+    position: static;
+    text-align: center;
+}
+#nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul.nav { 
+	margin:0; 
+	padding:0;
+	}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+	}
+
+.Educação{
+    display: flex;
+    flex-direction: column;
+}
+.Experiências{
+    display: flex;
+    flex-direction: column;
+}
+.vflex{
+    display: flex;
+    flex-direction: column;
+}
+#Retornar ao topo{
+    text-align: center;
+}
+#Experiências{
+    position: absolute;
+    top: 660px;
+    left: 52%;
+}
+#Certificações{
+    border-top: #A68F97 solid 2px;
+}
+#Habilidades{
+    border-top: #A68F97 solid 2px;
+}
+#Educação{
+    max-width: 50%;
+    border-right: #A68F97 solid 2px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+a{color: #1F2024;
+}
+
+@media screen (max-width:768px){
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav{position: static;
+        width: 100%;
+        display: flex;
+        flex-direction: column}
+
+    .Educação{
+        position:relative;
+        width: 100%;}
+
+    p{text-indent: 0;}
+
+    .html{background: #A68F97} }
